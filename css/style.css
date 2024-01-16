@@ -17,11 +17,13 @@ h1,
 h3 {
     color: #606d5f;
 }
-h3{
+
+h3 {
     font-weight: bold;
     font-size: 2.2rem;
     text-transform: capitalize;
 }
+
 p,
 li,
 a,
@@ -141,26 +143,79 @@ header nav .menu a li:hover {
 }
 
 /* ----------- Products Section ------------- */
-.product-section {
+.products-section {
     padding: 0 20rem;
     width: 100%;
     height: 100%;
     margin-bottom: 20rem;
 }
-.product-section h1{
+
+.products-section h1 {
     font-size: 5rem;
     line-height: 5rem;
     margin-bottom: 4rem;
     text-align: center;
     text-transform: capitalize;
 }
-.product-section .products{
+
+.products-section .products {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     justify-items: center;
 }
-.product-section .products .product-card{
+
+.products-section .products .product-card {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efefefef;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.products-section .products .product-card img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.products-section .products .product-card .buy-btn {
+    background-color: #fff;
+    border: 2px solid #efefefef;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.product-section {
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20rem;
+}
+
+.product-section h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.product-section .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+.product-section .products .product-card {
     width: 25rem;
     height: 25rem;
     background-color: #efeeef;
@@ -172,11 +227,13 @@ header nav .menu a li:hover {
     padding: 2rem;
     margin-bottom: 2rem;
 }
-.product-section .products .product-card img{
+
+.product-section .products .product-card img {
     width: 80%;
     border-radius: 50%;
 }
-.product-section .products .product-card .buy-btn{
+
+.product-section .products .product-card .buy-btn {
     background-color: #fff;
     border: 2px solid #efeeef;
     padding: 1rem 2rem;
